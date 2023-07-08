@@ -76,7 +76,7 @@ input {
 }
 
 .todo-item__preview {
-    display: flex;
+    display: grid;
     align-items: center;
     
 }
