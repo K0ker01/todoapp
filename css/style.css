@@ -78,15 +78,19 @@ input {
 .todo-item__preview {
     display: flex;
     align-items: center;
+    
 }
 
 .todo-item__content {
     display: flex;
     flex-direction: column;
+
+    
   }
 
 .todo-item__content .textfield {
     margin-top: 5px;
+    
 }
 
 .todo-item.completed * {
@@ -100,25 +104,35 @@ input {
     text-decoration: line-through;
   }
 
+.description {
+    display: block;
+    margin-top: 5px;
+    font-size: 16px;
+    word-wrap: break-word;
+    word-break: break-word;
+  }
+
+
+
 .todo-item.editing .title {
     display: none;
+    
 }
 
 .todo-item .textfield {
     display: none;
+    
 }
 
 .todo-item.editing .textfield {
     display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 100%;
-    grid-gap: 5px;
-    border-top: 1px solid rgba(0, 0, 0, .1);
     padding: 10px;
+    
 }
 
 .todo-item .checkbox {
     margin-right: .5rem;
+    display: flex;
 }
 
 .todo-item .title {
@@ -232,6 +246,7 @@ input {
         margin-top: 5px;
         font-size: 16px;
         word-wrap: break-word;
+        word-break: break-word;
       }
 
     .todo-item .description.hidden {
